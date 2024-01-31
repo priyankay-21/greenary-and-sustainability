@@ -1,0 +1,137 @@
+.mentor-main {
+  margin-left: 15%;
+  margin-top: 5%;
+}
+
+.title {
+  color: #720d5d;
+  margin-left: 90px;
+  margin-bottom: 20px;
+  font-size: 40px;
+}
+
+.mentor-row-1 {
+  display: flex;
+}
+
+.img-div > img {
+  width: 600px;
+  height: 250px;
+}
+
+.input-field {
+  color: #720d5d;
+  height: 30px;
+  width: 450px;
+  margin: 5px;
+  border: solid 1px;
+  border-radius: 20px;
+  font-family: "Raleway", sans-serif;
+  padding-left: 10px;
+  margin-left: 0px;
+}
+
+.valid-div {
+  margin-left: 10px;
+  color: red;
+}
+/* select.input-field {
+  width: 450px;
+} */
+
+.class-and-sub {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  margin: 20px;
+}
+
+.class-and-sub > div {
+  margin-right: 50px;
+}
+
+.class-name {
+  width: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #720d5d;
+  color: white;
+  border-radius: 20px;
+  margin-bottom: 20px;
+  height: 35px;
+}
+
+.submit-button {
+  height: 30px;
+  width: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #720d5d;
+  border-radius: 20px;
+  color: white;
+  cursor: pointer;
+  margin-left: 400px;
+  margin-top: 20px;
+}
+
+.mentor-signup-img-div-phone {
+  display: none;
+}
+
+@media screen and (max-width: 480px) {
+  .mentor-main {
+    display: block;
+    text-align: center;
+    margin: 0px;
+  }
+  .mentor-row-1 {
+    display: block;
+    margin: 0px;
+  }
+  .title {
+    font-size: 3.5em;
+    margin-left: 0px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+  }
+  .img-div {
+    display: none;
+  }
+  .mentor-signup-img-div-phone {
+    display: block;
+    margin: 0px;
+  }
+  .input-field {
+    width: 90%;
+    font-size: 1em;
+    height: auto;
+    padding: 10px;
+    margin-bottom: 10px;
+    margin-left: 0px;
+  }
+  .mentor-signup-dropdown {
+    font-size: 1em;
+  }
+  .class-and-sub {
+    display: block;
+  }
+  .submit-button {
+    font-size: 1.2em;
+    text-align: center;
+    display: block;
+    margin-left: 0px;
+    flex: none;
+    margin: 10px;
+    margin-left: 25%;
+    margin-bottom: 25px;
+  }
+  [name="clsAndSub"] {
+    height: 20px;
+    width: 20px;
+  }
+  .subs-box {
+    text-align: start;
+  }
+}

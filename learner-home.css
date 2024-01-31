@@ -1,0 +1,43 @@
+.learner-curvature {
+  background-color: white;
+  margin: 0;
+  padding: 0;
+  height: 40px;
+  border-radius: 20px 20px 0px 0px;
+  margin-top: -20px;
+}
+
+.card-chat {
+  text-align: left !important;
+}
+
+.learner-bg {
+  background-color: white;
+}
+
+.card-main {
+  width: 20%;
+}
+
+.learner-home {
+  margin-bottom: -15px;
+  padding-bottom: 20px;
+}
+
+.banned-status {
+  color: red;
+  font-size: 14px;
+  text-align: center;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 480px) {
+  #learner-home-mentors {
+    margin: 0px !important;
+    padding: 0px;
+    width: 100%;
+  }
+  .card-main {
+    width: 100%;
+  }
+}

@@ -1,0 +1,209 @@
+.learner-subject-details-main {
+  display: flex;
+  border-radius: 20px 20px 0 0;
+  margin-top: -20px;
+  z-index: 2;
+  background: white;
+}
+
+.learner-subject-details-back {
+  background: #464646;
+  color: white;
+  width: 100px;
+  height: 30px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+  margin-left: 130px;
+  margin-top: 20px;
+  font-size: large;
+  text-decoration: none;
+}
+.learner-subject-details-back:hover {
+  color: white;
+}
+
+.learner-subject-details-subjectname {
+  margin-left: -150px;
+  height: 100px;
+  padding-top: 30px;
+  font-size: 50px;
+  color: #5d1049;
+}
+
+.learner-pending-tests {
+  margin-top: 20px;
+  margin-left: 20px;
+  font-size: 20px;
+  width: 100%;
+}
+
+.learner-subject-details-chapters {
+  background: #4f0a3a;
+  height: 500px;
+  width: 70%;
+  border-radius: 20px;
+  margin-top: 20px;
+  margin-left: 70px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow-y: scroll;
+}
+
+.learner-subject-details-chapters::-webkit-scrollbar {
+  display: none;
+}
+
+.learner-chapter-element {
+  background: #720d5d;
+  color: #f0cce2;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  width: 90%;
+  min-height: 6vh;
+  height: 6vh;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  padding-left: 1vw;
+}
+
+.learner-chapter-element > input {
+  margin-top: 5px;
+  margin-right: 10px;
+}
+
+.learner-subject-details-col3 {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.learner-subject-details-subtopics {
+  background: #4f0a3a;
+  border-radius: 20px;
+  margin: 10px;
+  margin-left: -20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 120px;
+  width: 20%;
+  height: 445px;
+  overflow-y: scroll;
+}
+
+.learner-subject-details-subtopics::-webkit-scrollbar {
+  display: none;
+}
+
+.learner-subject-details-tests {
+  height: 500px;
+  width: 100%;
+}
+
+.learner-test-tab-button {
+  cursor: pointer;
+  opacity: 0.5;
+  border-radius: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+  width: max-content;
+  height: 30px;
+  padding-left: 10px;
+  padding-right: 10px;
+  display: flex;
+  justify-content: center;
+  color: red;
+  font-weight: 600;
+}
+
+.learner-tests-tab-inner {
+  background: url("../../assets/scene-living-room.svg") #f9f6f8;
+  background-repeat: no-repeat;
+  background-size: 675px 415px;
+  height: 400px;
+  padding: 10px;
+}
+
+.learner-subtopic-test-element {
+  background: white;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  height: 15%;
+  display: flex;
+  padding: 20px;
+}
+
+.learner-launch-test-button {
+  background: #720d5d;
+  color: white;
+  border-radius: 20px;
+  width: 130px;
+  height: 27px;
+  display: flex;
+  justify-content: center;
+  margin-left: 420px;
+  cursor: pointer;
+}
+
+.learner-subject-details-subjectname-mobile {
+  display: none;
+}
+
+@media screen and (max-width: 480px) {
+  .learner-subject-details-back {
+    margin-left: 35vw;
+  }
+  .learner-subject-details-main {
+    display: block;
+    text-align: center;
+  }
+  .learner-subject-details-chapters {
+    width: 80vw;
+    margin-left: 10vw;
+    height: auto;
+    padding-bottom: 3vh;
+  }
+  .learner-subject-details-subtopics {
+    width: 80vw;
+    margin-left: 10vw;
+    margin-top: 5vh;
+    height: auto;
+    padding-bottom: 3vh;
+  }
+  .learner-subject-details-subjectname {
+    display: none;
+  }
+  .learner-subject-details-subjectname-mobile {
+    display: flex;
+    width: 100vw;
+    font-size: 9vw;
+    padding-left: 23vw;
+    margin-top: 3vh;
+  }
+  .learner-subject-details-col3 {
+    display: block;
+    width: 100vw;
+    margin-top: 5vh;
+  }
+  .learner-tests-tab-inner {
+    background-size: 100vw;
+    display: block;
+    width: 100vw;
+    margin-right: 0px;
+  }
+  .learner-subtopic-test-element {
+    display: flex;
+    width: 95vw;
+    margin-right: 0px;
+  }
+  .learner-launch-test-button {
+    margin-left: 30vw;
+  }
+}

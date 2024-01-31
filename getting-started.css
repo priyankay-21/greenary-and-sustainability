@@ -1,0 +1,9 @@
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+  border: 7px solid #000000;
+  background-color: #000000;
+  border-radius: 50%;
+}
+.optional-signin {
+  margin-top: 10px;
+}

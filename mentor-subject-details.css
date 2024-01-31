@@ -1,0 +1,204 @@
+.mentor-subject-details-main {
+  display: flex;
+  border-radius: 20px;
+  margin-top: -20px;
+  z-index: 2;
+  background: white;
+}
+
+.mentor-subject-details-back {
+  background: #464646;
+  color: white;
+  width: 100px;
+  height: 30px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+  margin-left: 130px;
+  margin-top: 20px;
+  font-size: large;
+  text-decoration: none;
+}
+.mentor-subject-details-back:hover {
+  color: white;
+}
+
+.mentor-subject-details-subjectname {
+  margin-left: -150px;
+  height: 100px;
+  padding-top: 30px;
+  font-size: 50px;
+  color: #5d1049;
+}
+
+.mentor-subject-details-chapters {
+  background: #4f0a3a;
+  height: 500px;
+  border-radius: 20px;
+  margin-top: 20px;
+  margin-left: 70px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 70%;
+  overflow-y: scroll;
+}
+
+.mentor-subject-details-chapters::-webkit-scrollbar {
+  display: none;
+}
+
+.mentor-chapter-element {
+  background: #720d5d;
+  color: #f0cce2;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  width: 90%;
+  min-height: 6vh;
+  height: 6vh;
+  border-radius: 20px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 1vw;
+}
+
+.mentor-chapter-element > input {
+  margin-top: 5px;
+  margin-right: 10px;
+}
+
+.mentor-subject-details-col3 {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.mentor-subject-details-subtopics {
+  background: #4f0a3a;
+  border-radius: 20px;
+  margin: 10px;
+  margin-left: -20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 120px;
+  width: 20%;
+  height: 445px;
+  overflow-y: scroll;
+}
+
+.mentor-subject-details-subtopics::-webkit-scrollbar {
+  display: none;
+}
+
+.mentor-subject-details-tests {
+  height: 500px;
+  width: 100%;
+}
+
+.mentor-test-tab-button {
+  cursor: pointer;
+  opacity: 0.5;
+  border-radius: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+  width: max-content;
+  height: 30px;
+  padding-left: 10px;
+  padding-right: 10px;
+  display: flex;
+  justify-content: center;
+  color: red;
+  font-weight: 600;
+}
+
+.mentor-tests-tab-inner {
+  background: url("../../assets/scene-living-room.svg") #f9f6f8;
+  background-repeat: no-repeat;
+  background-size: 675px 415px;
+  height: 415px;
+  padding: 10px;
+}
+
+.mentor-subtopic-test-element {
+  background: white;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  height: 15%;
+  display: flex;
+  padding: 20px;
+}
+
+.mentor-launch-test-button {
+  background: #720d5d;
+  color: white;
+  border-radius: 20px;
+  width: 130px;
+  height: 27px;
+  display: flex;
+  justify-content: center;
+  margin-left: 420px;
+  cursor: pointer;
+}
+
+.mentor-subject-details-subjectname-mobile {
+  display: none;
+}
+
+@media screen and (max-width: 480px) {
+  .mentor-subject-details-back {
+    margin-left: 35vw;
+  }
+  .mentor-subject-details-main {
+    display: block;
+    text-align: center;
+  }
+  .mentor-subject-details-chapters {
+    width: 80vw;
+    margin-left: 10vw;
+    height: auto;
+    padding-bottom: 3vh;
+  }
+  .mentor-subject-details-subtopics {
+    width: 80vw;
+    margin-left: 10vw;
+    margin-top: 5vh;
+    height: auto;
+    padding-bottom: 3vh;
+  }
+  .mentor-subject-details-subjectname {
+    display: none;
+  }
+  .mentor-subject-details-subjectname-mobile {
+    display: flex;
+    width: 100vw;
+    font-size: 9vw;
+    padding-left: 23vw;
+    margin-top: 3vh;
+  }
+  .mentor-subject-details-col3 {
+    display: block;
+    width: 100vw;
+    margin-top: 5vh;
+  }
+  .mentor-tests-tab-inner {
+    display: block;
+    width: 100vw;
+    margin-right: 0px;
+    background-size: 100vw;
+  }
+  .mentor-subtopic-test-element {
+    display: flex;
+    width: 95vw;
+    margin-right: 0px;
+  }
+  .mentor-launch-test-button {
+    width: 40vw;
+    height: 4vh;
+    margin-left: 20vw;
+  }
+}
